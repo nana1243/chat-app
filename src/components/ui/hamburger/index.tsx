@@ -6,7 +6,7 @@ interface HamburgerProps {
     strokeWidth?: number;
 }
 
-const Hamburger = ({size = 30, color = 'black', strokeWidth = 1.5}: HamburgerProps) => {
+const Hamburger = ({size = 16, color = 'black', strokeWidth = 1.5}: HamburgerProps) => {
 
     return (
         <>
