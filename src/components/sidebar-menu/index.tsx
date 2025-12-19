@@ -3,20 +3,22 @@ import styles from './index.module.css';
 interface SidebarMenuProps {
     menuName: string;
     menuLink: string;
-    size?: 'small' | 'medium' | 'large';
-    color?: string;
+    icon: string;
 }
 
-const SidebarMenu = ({menuName, menuLink, size = 'medium', color = 'black'}: SidebarMenuProps) => {
+const SidebarMenu = ({menuName, menuLink, icon}: SidebarMenuProps) => {
     return (
         <li className={styles.sidebarMenu}>
-            <a
-                href={menuLink}
-                className={styles[size]}
-                style={{color: color}}
+            <img
+                src={`src/assets/images/${icon}`}
+                alt={menuName}
+            />
+            <button
+                // href={menuLink}
+                className={styles.sidebarMenuItem}
             >
                 {menuName}
-            </a>
+            </button>
         </li>
     )
 }

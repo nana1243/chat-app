@@ -14,8 +14,7 @@ const Sidebar = () => {
                             <SidebarMenu
                                 menuName={data.title}
                                 menuLink={data.link}
-                                size="medium"
-                                color="white"
+                                icon={data.icon}
                             />
                         )
 
