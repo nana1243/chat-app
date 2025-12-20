@@ -7,7 +7,7 @@ import ContentsLayout from "@/components/contents-layout";
 
 export const Route = createRootRoute({
     component: () => (
-        <div style={{ display: 'flex', height: '100vh', width: '100%' }}>            <Header/>
+        <div style={{display: 'flex', height: '100vh', width: '100%'}}>
             <Sidebar/>
             <ContentsLayout>
                 <Outlet/>
