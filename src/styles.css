@@ -5,6 +5,12 @@ body {
     background-color: #f4f4f4;
 }
 
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: inherit;

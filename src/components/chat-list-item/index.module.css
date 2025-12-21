@@ -1,0 +1,8 @@
+.buttonContainer {
+  background-color: gainsboro;
+  border: #f4f4f4 1px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+
+}
